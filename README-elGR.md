@@ -3,39 +3,33 @@
 > Τα πρότυπα είναι σημαντικά. <br/>
 > -- Officer Alex J. Murphy / RoboCop
 
-Ενα πράγμα με ενοχλούσε πάντα σαν Ruby προγραμματιστής - οι προγραμματιστές Python
+Ενα πράγμα με ενοχλούσε πάντα σαν Ruby προγραμματιστή - οι προγραμματιστές Python
 έχουν ένα πολύ καλό οδηγό τρόπου προγραμματισμού
 ([PEP-8](http://www.python.org/dev/peps/pep-0008/)) και εμείς δεν είχαμε ποτέ
 ένα επίσημο οδηγό, που να τεκμηριώνει τον τρόπο προγραμματισμού Ruby και τις καλύτερες
-πρακτικές. Και πιστεύω ότι ο τρόπος προγραμματισμού έχει σημασία.
+πρακτικές. Και πιστεύω ότι ο τρόπος προγραμματισμού έχει σημασία. Πιστεύω επίσης ότι
+μια σπουδαία κοινότητα hackers, όπως αυτή που διαθέτει η Ruby, θα μπορούσε να είναι
+ικανή να δημιουργήαει αυτό το πολύτιμο έγγραφο.
 
-<!--
+Αυτός ο οδηγός ξεκίνησε την ύπαρξη του, ως ο εσωτερικός οδηγός προγραμματισμού Ruby 
+στην εταιρεία μας (γραμμένο από τον υποφαινόμενο). Σε κάποιο σημείο αποφάσισα ότι
+η δουλειά που έκανα θα μπορούσε να είναι ενδιαφέρουσα στα μέλη της κοινότητας Ruby
+γενικώς και ότι ο κόσμος δεν είχε ανάγκη έναν ακόμα εσωτερικό εταιρικό οδηγό.
+Αλλά ο κόσμος σίγουρα θα επωφελούνταν από ένα σετ πρακτικών, ιδιωματισμών και 
+οδηγιών στυλ για τον προγραμματισμό Ruby, οδηγούμενο και επικυρωμένο από την
+κοινότητα.
 
-One thing has always bothered me as a Ruby developer - Python developers
-have a great programming style reference
-([PEP-8](http://www.python.org/dev/peps/pep-0008/)) and we never got
-an official guide, documenting Ruby coding style and best
-practices. And I do believe that style matters. I also believe that a
-great hacker community, such as Ruby has, should be quite capable of
-producing this coveted document.
+Από την αρχική ιδέα ύπαρξης το οδηγού, έχω λάβει πολλά σχόλια από τα μέλη
+της εξαιρετικής κοινότητας Ruby από όλο τον κόσμο. Ευχαριστώ για όλες τις
+προτάσεις και την υποστήριξη. Μαζί μπορούμε να κάνουμε μια ευεργετική πηγή
+πληροφοριών για κάθε Ruby προγραμματιστή.
 
-This guide started its life as our internal company Ruby coding guidelines
-(written by yours truly). At some point I decided that the work I was
-doing might be interesting to members of the Ruby community in general
-and that the world had little need for another internal company
-guideline. But the world could certainly benefit from a
-community-driven and community-sanctioned set of practices, idioms and
-style prescriptions for Ruby programming.
-
-Since the inception of the guide I've received a lot of feedback from
-members of the exceptional Ruby community around the world. Thanks for
-all the suggestions and the support! Together we can make a resource
-beneficial to each and every Ruby developer out there.
-
-By the way, if you're into Rails you might want to check out the
-complementary
+Παρπιπτόντως αν χρησιμοποιείτε Rails θα μπορούσατε να δείτε το συμπληρωματικό
+οδηγό
 [Ruby on Rails 3 & 4 Style Guide](https://github.com/bbatsov/rails-style-guide).
 
+
+<!--
 # The Ruby Style Guide
 
 This Ruby style guide recommends best practices so that real-world Ruby
